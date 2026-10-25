@@ -1,0 +1,24 @@
+{
+  "projects": [
+    {
+      "repo": "query-mind-rag-assistant",
+      "language": "TypeScript",
+      "description": "An intelligent AI search assistant that reads through documents and answers complex questions instantly using smart vector retrieval."
+    },
+    {
+      "repo": "phishshield-ai-email-detection",
+      "language": "Python",
+      "description": "An automated security scanner that analyzes incoming emails, detects sneaky phishing links and suspicious text patterns, and warns you before you fall for a scam."
+    },
+    {
+      "repo": "fruit-recognition-deep-svm",
+      "language": "Python",
+      "description": "A computer vision app that identifies and classifies different fruits from photos in real time by extracting deep visual patterns and running instant predictions."
+    },
+    {
+      "repo": "gujarati-ngram-spellchecker",
+      "language": "Python",
+      "description": "A smart language tool that catches spelling errors in Gujarati text and suggests the correct words by analyzing letter sequences and calculating edit distances."
+    }
+  ]
+}

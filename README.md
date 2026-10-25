@@ -1,40 +1,39 @@
 <div align="center">
 
-  <!-- Header Banner / Intro -->
-  <h1 align="center">Hi there, I'm Ashmit Prasad 👋</h1>
-
-  <p align="center">
-    <strong>Computer Science & Engineering Student @ St. Francis Institute of Technology (SFIT), Mumbai</strong><br>
-    <em>Full-Stack Developer • Applied AI / ML Enthusiast • Software Builder</em>
-  </p>
-
-  <p align="center">
-    <a href="https://github.com/Ashmit-code"><img src="https://img.shields.io/github/followers/Ashmit-code?label=Followers&style=flat-square&color=238636&logo=github" alt="GitHub Followers" /></a>
-    <a href="https://github.com/Ashmit-code?tab=repositories"><img src="https://img.shields.io/github/repo-size/Ashmit-code/query-mind-rag-assistant?label=QueryMind&style=flat-square&color=1f6feb&logo=github" alt="Featured Repo" /></a>
-    <img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-success?style=flat-square" alt="Status" />
-  </p>
+  <!-- Animated Hero Banner -->
+  <picture>
+    <img src="assets/hero-banner.svg" alt="Ashmit Prasad - Computer Science & Engineering @ SFIT Mumbai" width="100%">
+  </picture>
 
 </div>
 
 ---
 
-### ⚡ At a Glance
+<div align="center">
+  <h2>🚀 DEVELOPER MISSION CONTROL</h2>
+</div>
 
-```text
-├── 🎓 Pursuing   : B.E. in Computer Science & Engineering at SFIT, Mumbai
-├── 💻 Core Focus : Full-Stack Web Apps • Semantic RAG Systems • NLP & Machine Learning
-├── 🛠️ Tech Depth : TypeScript, Python, React, FastAPI, Node.js, Vector Databases (Qdrant)
-├── 📍 Location   : Mumbai, India
-└── 🎯 Goal       : Engineering robust, scalable software that solves real-world challenges
+```bash
+ashmit@sfit-node:~$ ./init_session --user visitor
+[SYSTEM ONLINE] Connecting to Ashmit Prasad's Developer Hub...
+
+❯ IDENTITY:     Ashmit Prasad • Full-Stack Web Developer & Applied AI/ML Engineer
+❯ EDUCATION:    B.E. in Computer Science & Engineering @ St. Francis Institute of Technology (SFIT), Mumbai
+❯ PASSION:      Engineering intelligent RAG systems, NLP tools & high-performance web applications
+❯ SPECIALTY:    FastAPI, React 19, TypeScript, Python, Qdrant Vector Cloud
+❯ LOCATION:     Mumbai, India 🇮🇳
+❯ STATUS:       Open for Software Engineering Internships & Technical Collaborations
 ```
 
 ---
 
-### 🛠️ Tech Stack & Tools
+<div align="center">
+  <h2>🛠️ TECH STACK & TOOLKIT</h2>
+</div>
 
-<table>
+<table align="center" width="100%">
   <tr>
-    <td align="left" width="20%"><strong>Languages</strong></td>
+    <td align="left" width="22%"><strong>Languages</strong></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -90,72 +89,49 @@
 
 ---
 
-### 🚀 Featured Repositories
+<div align="center">
+  <h2>🧠 FEATURED PROJECTS</h2>
+</div>
 
-A curated selection of software projects spanning full-stack web applications, vector RAG pipelines, NLP, and machine learning:
-
-<table>
+<table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Ashmit-code/query-mind-rag-assistant">🧠 QueryMind — Enterprise RAG Assistant</a></h4>
-      <p>Full-stack Retrieval-Augmented Generation assistant leveraging FastAPI, Qdrant Vector Cloud (447 indexed embeddings), and React 19 + TypeScript for high-precision semantic search and context synthesis.</p>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square" alt="Qdrant" />
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-      </p>
+    <td width="50%" align="center" style="border: none; padding: 10px;">
+      <a href="https://github.com/Ashmit-code/query-mind-rag-assistant">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-query-mind-rag-assistant-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-query-mind-rag-assistant-light.svg">
+          <img src="assets/card-query-mind-rag-assistant-dark.svg" width="100%" alt="QueryMind RAG Assistant">
+        </picture>
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Ashmit-code/phishshield-ai-email-detection">🛡️ PhishShield AI — Threat Detection</a></h4>
-      <p>High-accuracy email phishing detector and cyber threat analyzer utilizing ensemble NLP pipelines, 8 trained scikit-learn classifiers, and a real-time FastAPI threat analysis endpoint.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/NLP-blue?style=flat-square" alt="NLP" />
-      </p>
+    <td width="50%" align="center" style="border: none; padding: 10px;">
+      <a href="https://github.com/Ashmit-code/phishshield-ai-email-detection">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-phishshield-ai-email-detection-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-phishshield-ai-email-detection-light.svg">
+          <img src="assets/card-phishshield-ai-email-detection-dark.svg" width="100%" alt="PhishShield AI">
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Ashmit-code/mango-quickcommerce">🥭 Mango QuickCommerce — Modern Storefront</a></h4>
-      <p>Production-grade single-page e-commerce storefront for organic farm-to-table produce. Features real-time cart state management, checkout flows, and responsive UI built with React 18 & Vite.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-      </p>
+    <td width="50%" align="center" style="border: none; padding: 10px;">
+      <a href="https://github.com/Ashmit-code/fruit-recognition-deep-svm">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-fruit-recognition-deep-svm-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-fruit-recognition-deep-svm-light.svg">
+          <img src="assets/card-fruit-recognition-deep-svm-dark.svg" width="100%" alt="Fruit DeepSVM Recognizer">
+        </picture>
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Ashmit-code/fruit-recognition-deep-svm">🔬 Fruit DeepSVM — Visual Recognition</a></h4>
-      <p>Computer vision classifier pairing ResNet-50 deep feature extraction (2048-dim vectors) with an optimized Linear Support Vector Machine across 10 fruit categories with an interactive Flask web UI.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/ResNet--50-blue?style=flat-square" alt="ResNet" />
-        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-        <img src="https://img.shields.io/badge/SVM-orange?style=flat-square" alt="SVM" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Ashmit-code/gujarati-morphological-spellchecker">✍️ Gujarati Morphological Spellchecker</a></h4>
-      <p>Low-resource Indian NLP system using character morphological segmentation, linguistic affix rules, and multi-head Keras candidate ranking for automated spelling error correction.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Keras_3-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Ashmit-code/advance-budget-tracker-pro">📊 Advance Budget Tracker Pro</a></h4>
-      <p>Lightweight, zero-dependency personal finance dashboard built in pure Vanilla JavaScript featuring dynamic transaction categorization, budget thresholds, and local storage persistence.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-        <img src="https://img.shields.io/badge/CSS3_Modern-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-      </p>
+    <td width="50%" align="center" style="border: none; padding: 10px;">
+      <a href="https://github.com/Ashmit-code/gujarati-ngram-spellchecker">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/card-gujarati-ngram-spellchecker-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="assets/card-gujarati-ngram-spellchecker-light.svg">
+          <img src="assets/card-gujarati-ngram-spellchecker-dark.svg" width="100%" alt="Gujarati N-Gram Spellchecker">
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
@@ -168,36 +144,51 @@ A curated selection of software projects spanning full-stack web applications, v
 
 ---
 
-### 📈 GitHub Activity & Contribution Graph
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ashmit-code/Ashmit-code/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ashmit-code/Ashmit-code/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ashmit-code/Ashmit-code/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ashmit-code&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Ashmit's GitHub Stats" height="150" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashmit-code&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" height="150" />
-</div>
-
-<div align="center">
+  <h2>📊 ANALYTICS</h2>
+  
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ashmit-code&theme=tokyonight&hide_border=true&background=0d1117" alt="Ashmit's GitHub Streak" />
+
+  <!-- At a glance stat card -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/card-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+    <img src="assets/card-stats-dark.svg" alt="Ashmit-code at a glance" width="480">
+  </picture>
+
+  <br><br>
+
+  <!-- Language mix spider / radar chart -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/radar-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
+    <img src="assets/radar-langs-dark.svg" alt="Ashmit-code language mix radar chart" width="560">
+  </picture>
+
 </div>
 
 ---
 
-### 📬 Get In Touch
+<div align="center">
+  <h2>🐍 CONTRIBUTION GRAPH</h2>
+
+  <br>
+
+  <!-- Animated Contribution Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
+    <img alt="GitHub contribution grid snake animation" src="assets/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+
+</div>
+
+---
 
 <div align="center">
+  <h2>📬 GET IN TOUCH</h2>
 
-  <p>I am always excited to connect with fellow engineers, collaborate on open-source initiatives, or explore software engineering opportunities.</p>
+  <p>I'm always keen to discuss software engineering roles, open-source projects, or new tech ideas.</p>
 
   <a href="https://github.com/Ashmit-code">
     <img src="https://img.shields.io/badge/GitHub-Ashmit--code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -211,10 +202,7 @@ A curated selection of software projects spanning full-stack web applications, v
     <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 
-</div>
+  <br><br>
+  <sub>Engineered with precision • © Ashmit Prasad</sub>
 
-<br>
-
-<div align="center">
-  <sub>Built with care & dedication • © Ashmit Prasad</sub>
 </div>

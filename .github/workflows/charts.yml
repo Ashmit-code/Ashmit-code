@@ -1,0 +1,50 @@
+name: Update Profile Charts & Stats
+
+on:
+  schedule:
+    # Run automatically every 24 hours (06:00 UTC)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "assets/projects.json"
+      - "scripts/**"
+
+jobs:
+  update-charts:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Radar Language Mix
+        run: |
+          python scripts/radar.py --github Ashmit-code --exclude "classic asp" -o assets/radar-langs --values
+
+      - name: Generate Analytics & Project Cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/cards.py --user Ashmit-code --out assets --projects assets/projects.json
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          if git diff --staged --quiet; then
+            echo "No changes in generated SVG assets."
+          else
+            git commit -m "chore(auto): refresh profile analytics cards and radar charts"
+            git push
+          fi

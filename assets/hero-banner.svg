@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 260" width="880" height="260" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Glowing Border Gradient -->
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#00bbf9" />
+      <stop offset="100%" stop-color="#7b2cbf" />
+    </linearGradient>
+
+    <!-- Text Highlight Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Badge Gradients -->
+    <linearGradient id="badge-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Background Pattern -->
+    <pattern id="grid-pattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1" fill="#1e293b" opacity="0.6" />
+    </pattern>
+
+    <!-- Keyframe Animations -->
+    <style>
+      .pulse-dot {
+        animation: pulse_anim 2s infinite ease-in-out;
+      }
+      @keyframes pulse_anim {
+        0%, 100% { opacity: 1; r: 4.5; }
+        50% { opacity: 0.4; r: 3.5; }
+      }
+
+      .dash-border {
+        stroke-dasharray: 8 8;
+        animation: dash_anim 35s linear infinite;
+      }
+      @keyframes dash_anim {
+        to { stroke-dashoffset: -1000; }
+      }
+
+      .scan-line {
+        animation: scan_anim 6s ease-in-out infinite alternate;
+      }
+      @keyframes scan_anim {
+        0% { transform: translateY(0px); opacity: 0.15; }
+        100% { transform: translateY(220px); opacity: 0.55; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background with Rounded Corners -->
+  <rect x="2" y="2" width="876" height="256" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
+  
+  <!-- Subtle Dot Grid Matrix -->
+  <rect x="2" y="2" width="876" height="256" rx="16" fill="url(#grid-pattern)" />
+
+  <!-- Animated Glowing Outer Accent Border -->
+  <rect x="6" y="6" width="868" height="248" rx="13" fill="none" stroke="url(#border-grad)" stroke-width="1.5" class="dash-border" opacity="0.8" />
+
+  <!-- Status Bar Header -->
+  <g transform="translate(40, 42)">
+    <!-- Terminal Status Badge -->
+    <rect x="0" y="0" width="220" height="26" rx="13" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <circle cx="15" cy="13" r="4.5" fill="#10b981" class="pulse-dot" filter="url(#glow)" />
+    <text x="28" y="17" font-size="11" font-weight="700" fill="#34d399" letter-spacing="0.5">DEV SESSION ONLINE</text>
+    <text x="160" y="17" font-size="11" fill="#64748b">• SFIT</text>
+
+    <!-- Top Right Corner Tag -->
+    <text x="795" y="17" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="end" letter-spacing="1">MUMBAI, INDIA 🇮🇳</text>
+  </g>
+
+  <!-- Hero Main Headline -->
+  <g transform="translate(40, 115)">
+    <text x="0" y="0" font-size="34" font-weight="900" fill="#ffffff" letter-spacing="-0.5">ASHMIT PRASAD</text>
+    <text x="285" y="-5" font-size="16" font-weight="700" fill="url(#text-grad)" filter="url(#glow)">_</text>
+
+    <!-- Subtitle: Profession & Core Focus -->
+    <text x="0" y="28" font-size="15" font-weight="600" fill="url(#text-grad)">Full-Stack Web Developer • Applied AI / ML Enthusiast • Software Builder</text>
+    <text x="0" y="48" font-size="12.5" font-weight="400" fill="#94a3b8">B.E. in Computer Science &amp; Engineering @ St. Francis Institute of Technology (SFIT)</text>
+  </g>
+
+  <!-- Tech Capsule Pills Row -->
+  <g transform="translate(40, 204)">
+    <!-- Capsule 1: FastAPI -->
+    <rect x="0" y="0" width="86" height="25" rx="12" fill="#0369a1" fill-opacity="0.25" stroke="#0284c7" stroke-width="1" />
+    <text x="43" y="16.5" font-size="11" font-weight="600" fill="#38bdf8" text-anchor="middle">FastAPI</text>
+
+    <!-- Capsule 2: React 19 -->
+    <rect x="96" y="0" width="94" height="25" rx="12" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1" />
+    <text x="143" y="16.5" font-size="11" font-weight="600" fill="#7dd3fc" text-anchor="middle">React 19</text>
+
+    <!-- Capsule 3: TypeScript -->
+    <rect x="200" y="0" width="102" height="25" rx="12" fill="#2563eb" fill-opacity="0.25" stroke="#3b82f6" stroke-width="1" />
+    <text x="251" y="16.5" font-size="11" font-weight="600" fill="#93c5fd" text-anchor="middle">TypeScript</text>
+
+    <!-- Capsule 4: Python -->
+    <rect x="312" y="0" width="84" height="25" rx="12" fill="#4f46e5" fill-opacity="0.25" stroke="#6366f1" stroke-width="1" />
+    <text x="354" y="16.5" font-size="11" font-weight="600" fill="#a5b4fc" text-anchor="middle">Python</text>
+
+    <!-- Capsule 5: Qdrant Vector Cloud -->
+    <rect x="406" y="0" width="120" height="25" rx="12" fill="#7c3aed" fill-opacity="0.25" stroke="#8b5cf6" stroke-width="1" />
+    <text x="466" y="16.5" font-size="11" font-weight="600" fill="#c4b5fd" text-anchor="middle">Qdrant Vector DB</text>
+
+    <!-- Capsule 6: Machine Learning -->
+    <rect x="536" y="0" width="140" height="25" rx="12" fill="#059669" fill-opacity="0.25" stroke="#10b981" stroke-width="1" />
+    <text x="606" y="16.5" font-size="11" font-weight="600" fill="#6ee7b7" text-anchor="middle">Machine Learning</text>
+
+    <!-- Open to collaborate pill -->
+    <rect x="686" y="0" width="112" height="25" rx="12" fill="#9333ea" fill-opacity="0.2" stroke="#a855f7" stroke-width="1" />
+    <text x="742" y="16.5" font-size="11" font-weight="600" fill="#e9d5ff" text-anchor="middle">Open to Work ✨</text>
+  </g>
+</svg>
