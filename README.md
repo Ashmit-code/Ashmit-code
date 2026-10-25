@@ -2,7 +2,7 @@
 
   <!-- Animated Hero Banner -->
   <picture>
-    <img src="assets/hero-banner.svg" alt="Ashmit Prasad - Computer Science & Engineering @ SFIT Mumbai" width="100%">
+    <img src="assets/hero-banner.svg" alt="Ashmit Prasad  Computer Science & Engineering @ SFIT Mumbai" width="100%">
   </picture>
 
 </div>
@@ -169,19 +169,6 @@ ashmit@sfit-node:~$ ./init_session --user visitor
 
 ---
 
-<div align="center">
-  <h2>🐍 CONTRIBUTION GRAPH</h2>
-
-  <br>
-
-  <!-- Animated Contribution Snake -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution grid snake animation" src="assets/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-
-</div>
 
 ---
 
